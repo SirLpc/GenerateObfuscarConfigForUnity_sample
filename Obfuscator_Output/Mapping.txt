@@ -1,0 +1,17 @@
+Renamed Types:
+
+Skipped Types:
+
+[Assembly-CSharp]Test skipped:  KeepPublicApi option in configuration
+{
+	[Assembly-CSharp]Test::ShouldBeObfuscated[0]( ) -> A
+
+	[Assembly-CSharp]Test::OnGUI[0]( ) skipped:  method rule in configuration
+	[Assembly-CSharp]Test::.ctor[0]( ) skipped:  special name
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+

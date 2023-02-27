@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Obfuscator>
+  <Var name="InPath" value="." />
+  <Var name="OutPath" value=".\Obfuscator_Output" />
+  <AssemblySearchPath path="$(InPath)\Builds\GenerateObfuscarConfigForUnity_sample_Data\Managed\" />
+  <Module file="$(InPath)\Builds\GenerateObfuscarConfigForUnity_sample_Data\Managed\Assembly-CSharp.dll">
+    <SkipMethod type="Test" attrib="" name="OnGUI" />
+  </Module>
+  <Var name="HidePrivateApi" value="true" />
+  <Var name="KeepPublicApi" value="true" />
+</Obfuscator>
